@@ -6,11 +6,11 @@ import CarValue from './components/CarValue';
 import Carform from './components/Carform';
 function App() {
     return (
-        <div>
-            <CarList />
-            <CarSearch />
+        <div className='continer is-fluid'>
+            <Carform /> <CarSearch /><CarList />
+
             <CarValue />
-            <Carform />
+
         </div>
     );
 }
